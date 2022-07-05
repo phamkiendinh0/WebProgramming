@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Trying Out Semantics</h1>
+        <p>Nothing Special Really</p>
+    </header>
+    <main>
+        <nav style="float: right; display:inline-block;">
+        <a href="#contactmethod"><strong>Contact Method</strong></a>
+        <a href="#contactdays"><strong>Contact Days</strong></a>
+        </nav>
+        <br>
+        <form action="https://www.google.com.vn" method="post" style="border-width: 4px;border-radius: 10px;border-color: black; background-color: lightsteelblue;">
+            <label for=""><strong>Purpose Of Contact: </strong></label>
+            <select name="purpose" id="purpose" value>
+                <option value="business">Business</option>
+                <option value="personal">Personal</option>
+            </select>
+            <br><br>
+            <label ><strong>Please Enter Your Name: </strong></label>
+            <input type="text" size="50" placeholder="Enter Your Name Here..."><br><br>
+            <label ><strong>Please Enter Your Email: </strong></label>
+            <input type="email" placeholder="Enter Your Email Here..."><br><br>
+            <label ><strong>Please Enter Phone Number: </strong></label>
+            <input type="tel" placeholder="Enter Your Phone Number..."><br><br>
+            <fieldset id="contactmethod">
+                <legend><strong>Preferred Contact Method</strong></legend>
+                <input type="radio" id="email">
+                <label for="email">Email</label><br>
+                <input type="radio" id="phone">
+                <label for="phone">Phone</label>
+            </fieldset>
+            <fieldset id="contactdays">
+                <legend><strong>Contact Days</strong></legend>
+                <input type="checkbox" id="monday"><label for="monday">Monday</label><br>
+                <input type="checkbox" id="tuesday"><label for="tuesday">Tuesday</label><br>
+                <input type="checkbox" id="wednesday"><label for="wednesday">Wednesday</label><br>
+                <input type="checkbox" id="thursday"><label for="thursday">Thursday</label><br>
+                <input type="checkbox" id="friday"><label for="friday">Friday</label><br>
+                <input type="checkbox" id="saturday"><label for="saturday">Saturday</label><br>
+                <input type="checkbox" id="sunday"><label for="sunday">Sunday</label><br>
+            </fieldset>
+            <label for=""><strong>Upload Your File: </strong></label>
+            <input type="file"> <br><br>
+            <label for=""><strong>Leave A Message:</strong></label><br>
+            <textarea name="msg" id="msg" cols="50" rows="5" placeholder="Leave A Message..."></textarea><br><br>
+            <input type="submit" value="Submit"> <input type="reset" value="Clear">
+        </form>   
+    </main>
+    <footer>
+        <p><b>Author: Dinh Pham </b></p>
+        <a href="mailto:phamkiendinh0@gmail.com">Send Email To Me</a>
+    </footer>
+</body>
+</html>
