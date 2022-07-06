@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+    font-size: xxx-large;
+}
+
+h2 {
+    color: red;
+    font-size: x-large;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav a:active {
+    color: white;
+    background-color: black;
+}
+
+#personal {
+    color: green;    
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+    background-color: lightpink;
+}
