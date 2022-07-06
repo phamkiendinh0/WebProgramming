@@ -1,0 +1,25 @@
+p {
+    color: red;
+}
+p {
+    color: green;
+}
+em {
+    color: blue;
+}
+
+p em {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.info {
+    color: blue;
+}

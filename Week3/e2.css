@@ -1,0 +1,31 @@
+ol li:first-child {
+    color:red;
+}
+
+ol li{
+    color: green;
+}
+
+ol li:last-child{
+    color:blue;
+}
+
+p:first-of-type::first-line {
+    background-color: pink;
+}
+
+p::first-line {
+    background-color: lightblue;
+}
+
+p::selection {
+    background-color: yellow;
+}
+
+form input text {
+    background-color: green;
+}
+
+input:required {
+    background-color: red;
+}
