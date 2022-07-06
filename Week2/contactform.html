@@ -29,23 +29,23 @@
             <label ><strong>Please Enter Your Email: </strong></label>
             <input type="email" placeholder="Enter Your Email Here..."><br><br>
             <label ><strong>Please Enter Phone Number: </strong></label>
-            <input type="tel" placeholder="Enter Your Phone Number..."><br><br>
+            <input type="tel" placeholder="Enter Your Phone Number..." pattern="[0-9]{9,13}"><br><br>
             <fieldset id="contactmethod">
                 <legend><strong>Preferred Contact Method</strong></legend>
-                <input type="radio" id="email">
+                <input name="contact" type="radio" id="email">
                 <label for="email">Email</label><br>
-                <input type="radio" id="phone">
+                <input name="contact" type="radio" id="phone">
                 <label for="phone">Phone</label>
             </fieldset>
             <fieldset id="contactdays">
                 <legend><strong>Contact Days</strong></legend>
-                <input type="checkbox" id="monday"><label for="monday">Monday</label><br>
-                <input type="checkbox" id="tuesday"><label for="tuesday">Tuesday</label><br>
-                <input type="checkbox" id="wednesday"><label for="wednesday">Wednesday</label><br>
-                <input type="checkbox" id="thursday"><label for="thursday">Thursday</label><br>
-                <input type="checkbox" id="friday"><label for="friday">Friday</label><br>
-                <input type="checkbox" id="saturday"><label for="saturday">Saturday</label><br>
-                <input type="checkbox" id="sunday"><label for="sunday">Sunday</label><br>
+                <input name="check_boxes[]" type="checkbox" id="monday"><label for="monday">Monday</label><br>
+                <input name="check_boxes[]" type="checkbox" id="tuesday"><label for="tuesday">Tuesday</label><br>
+                <input name="check_boxes[]" type="checkbox" id="wednesday"><label for="wednesday">Wednesday</label><br>
+                <input name="check_boxes[]" type="checkbox" id="thursday"><label for="thursday">Thursday</label><br>
+                <input name="check_boxes[]" type="checkbox" id="friday"><label for="friday">Friday</label><br>
+                <input name="check_boxes[]" type="checkbox" id="saturday"><label for="saturday">Saturday</label><br>
+                <input name="check_boxes[]" type="checkbox" id="sunday"><label for="sunday">Sunday</label><br>
             </fieldset>
             <label for=""><strong>Upload Your File: </strong></label>
             <input type="file"> <br><br>
